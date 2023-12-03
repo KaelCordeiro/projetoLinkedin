@@ -395,7 +395,9 @@
   }
 
   p#separa{
-    width: 4px;
+    width: 1px;
     height: 52px;
     color: var(--letra-branca);
+    font-size: 55px;
+    margin-top: -18px;
   }
