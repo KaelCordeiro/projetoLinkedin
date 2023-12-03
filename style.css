@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    display: flex;
 }
 
 :root{
@@ -27,11 +26,199 @@
     background: var(--fundo-escuro);
   }
 
+  header#tam{
+    width: 1440px;
+    height: 52px;
+    flex-shrink: 0;
+    background: var(--fundo-card);
+  }
+
+  img#logo{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    margin: 9px 1253px 9px 153px;
+  }
+
+  img#pesq{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 5px 248px 5px 8px;
+  }
+
+  p#descPesq{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--letra-branca);
+    margin-left: -244px;
+  }
+
+  div#icones{
+    display: flex;
+    width: 400px;
+    height: 38px;
+    flex-shrink: 0;
+    margin: 7px 473px 7px 567px;
+    margin-top: -44px;
+  }
+
+  div#caixaHome{
+    width: 80px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  div#caixaRede{
+    width: 80px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  div#caixaVagas{
+    width: 80px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  div#caixaSMS{
+    width: 80px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  div#caixaSinal{
+    width: 80px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  div#caixaSol{
+    width: 80px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  img.home{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0px 28px 0px 28px;
+  }
+
+  img.rede{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0px 28px 0px 28px;
+  }
+
+  img.vaga{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0px 28px 0px 28px;
+  }
+
+  img.mensagem{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0px 28px 0px 28px;
+  }
+
+  img.notifica{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0px 28px 0px 28px;
+  }
+
+  img.solucao{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0px 28px 0px 28px;
+  }
+
+  p#in{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin-top: -3px;
+  }
+
+  p#net{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin-top: -3px;
+  }
+
+  p#vaga{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin-top: -3px;
+  }
+
+  p#sms{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin-top: -3px;
+  }
+
+  p#sinal{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin-top: -3px;
+  }
+
+  p#sol{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin-top: -3px;
+  }
+
+  div#tamPesq{
+    display: flex;
+    width: 280px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--input);
+    margin: 9px 965px 9px 195px;
+    margin-top: -47px;
+  }
+
   .infPerfil{
     width: 780px;
     height: 468px;
     flex-shrink: 0;
-    margin: 76px 506px 1595px 154px;
+    margin: 24px 506px 1595px 154px;
   }
 
   .imagem{
@@ -43,23 +230,26 @@
   }
 
   .foto{
+    display: flex;
     width: 160px;
     height: 160px;
     flex-shrink: 0;
     border-radius: 160px;
     border: 4px solid var(--fundo-card);
-    margin: 0px 0px 0px 24px;
-    margin-top: -115px;
+    margin: 118px 596px 190px 24px;
+    margin-top: -250px;
   }
 
   .infPessoal{
+    display: flex;
     width: 780px;
     height: 238px;
     flex-shrink: 0;
     flex-direction: column;
+    justify-content: center;
     border-radius: 0px 0px 16px 16px;
     background-color: var(--fundo-card);
-    margin: 230px 0px 0px -780px;
+    margin-top: -5px;
   }
 
   .infLocal{
@@ -99,6 +289,7 @@
   }
 
   .botoes{
+    display: flex;
     flex-direction: column;
     margin: 4px 0px 0px 24px;
     width: 263px;
@@ -108,6 +299,7 @@
   }
 
   button#mensagem{
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 6px 29px 6px 29px;
@@ -124,6 +316,7 @@
   }
 
   button#mais{
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 6px 29px 6px 29px;
@@ -179,7 +372,7 @@
     line-height: 30px;
     color: var(--letra-branca);
     margin: 0px 0px 0px 24px;
-    margin-bottom: 1px;
+    margin-top: -170px;
   }
 
   p#desc{
@@ -199,4 +392,10 @@
     color: var(--letra-branca);
     margin: 0px 0px 0px 24px;
     margin-bottom: 4px;
+  }
+
+  p#separa{
+    width: 4px;
+    height: 52px;
+    color: var(--letra-branca);
   }
