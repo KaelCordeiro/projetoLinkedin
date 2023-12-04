@@ -1,8 +1,10 @@
-Exercício do 7 days Of Code: Informações do Perfil, cabeçalho
+Exercício do 7 days Of Code: Informações do Perfil, Cabeçalho, Destaques
 
 Primeiro Desafio - Status: Concluído
 
 Segundo Desafio - Status: Concluído
+
+Terceiro Desafio - Status: Concluído
 
 Participando do Desafio pela Instrutora Natália fazendo uma réplica do site Linkedin!
 
