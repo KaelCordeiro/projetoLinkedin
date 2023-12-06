@@ -522,6 +522,141 @@
     background: var(--fundo-card);
   }
 
+  div#caixaExp{
+    width: 780px;
+    height: 376px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--fundo-card);
+    margin-top: 8px;
+  }
+
+  p#tituloExp{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+    margin: 0px 0px 0px 24px;
+    margin-top: -364px;
+  }
+
+  img.empresa{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    margin: 0px 0px 0px 24px;
+    margin-top: 8px;
+  }
+
+  p#empresa{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.90);
+    margin: 0px 0px 0px 80px;
+    margin-top: -44px;
+  }
+
+  p#mesEmpresa{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 0px 0px 0px 81px;
+  }
+
+  div#caixaExp1{
+    width: 257px;
+    height: 76px;
+    flex-shrink: 0;
+    margin: 0px 0px 0px 44px;
+  }
+
+  img.topico{
+    width: 9px;
+    height: 71px;
+    flex-shrink: 0;
+    margin-top: 10px;
+  }
+
+  div#descExp1{
+    width: 220px;
+    height: 72px;
+    flex-shrink: 0;  
+    margin-left: 38px;
+    margin-top: -78px;
+  }
+
+  div#caixaExp2{
+    width: 258px;
+    height: 72px;
+    flex-shrink: 0;
+    margin: 38px 0px 0px 44px;
+  }
+
+  div#caixaExp3{
+    width: 257px;
+    height: 76px;
+    flex-shrink: 0;
+    margin: 0px 0px 0px 44px;
+  } 
+
+  img.topico{
+    width: 9px;
+    height: 71px;
+    flex-shrink: 0;
+    margin-top: 10px;
+  }
+
+  img.topico1{
+    width: 9px;
+    height: 61px;
+    flex-shrink: 0;
+  }
+
+  div#descExp2{
+    width: 221px;
+    height: 72px;
+    flex-shrink: 0;  
+    margin-left: 38px;
+    margin-top: -78px;
+  }
+
+  p#cargo{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color:rgba(255, 255, 255, 0.90);
+  }
+
+  p#periodo{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.90);
+  }
+
+  p#tempo{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.60);
+  }
+
+  p#localEmpresa{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.60);
+  }
+
   p.about{
     display: flex;
     font-size: 20px;
