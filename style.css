@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -98,6 +99,535 @@
   div#caixaSol{
     width: 80px;
     height: 38px;
+    flex-shrink: 0;
+  }
+
+  div#cardPes1{
+    width: 320px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--fundo-card);
+    margin: 0px 0px 0px 812px;
+    margin-top: -1994px;
+  }
+
+  div#cardPes2{
+    width: 320px;
+    height: 551px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--fundo-card);
+    margin: 8px 0px 0px 812px;
+  }
+
+  p#tituloPes{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.90);
+    margin: 0px 0px 0px 16px;
+  }
+
+  div#pes1{
+    width: 284px;
+    height: 83px;
+    flex-shrink: 0;
+    margin: 16px 0px 0px 16px;
+  }
+
+  div#quadro{
+    width: 284px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  p#pesNS{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 0px 0px 56px;
+    margin-top: -52px;
+  }
+
+  p#loremPes{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 2px 0px 0px 56px;
+  }
+
+  div#mensagemPes{
+    width: 154px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes{
+    display: flex;
+    width: 122px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#pes2{
+    width: 284px;
+    height: 83px;
+    flex-shrink: 0;
+    margin: 16px 0px 0px 16px;
+  }
+
+  div#quadro2{
+    width: 284px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  p#pesNS2{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 0px 0px 56px;
+    margin-top: -52px;
+  }
+
+  p#loremPes2{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 2px 0px 0px 56px;
+  }
+
+  div#mensagemPes2{
+    width: 154px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes2{
+    display: flex;
+    width: 122px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#pes3{
+    width: 284px;
+    height: 83px;
+    flex-shrink: 0;
+    margin: 16px 0px 0px 16px;
+  }
+
+  div#quadro3{
+    width: 284px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  p#pesNS3{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 0px 0px 56px;
+    margin-top: -52px;
+  }
+
+  p#loremPes3{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 2px 0px 0px 56px;
+  }
+
+  div#mensagemPes3{
+    width: 154px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes3{
+    display: flex;
+    width: 122px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#pes4{
+    width: 284px;
+    height: 83px;
+    flex-shrink: 0;
+    margin: 16px 0px 0px 16px;
+  }
+
+  div#quadro4{
+    width: 284px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  p#pesNS4{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 0px 0px 56px;
+    margin-top: -52px;
+  }
+
+  p#loremPes4{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 2px 0px 0px 56px;
+  }
+
+  div#mensagemPes4{
+    width: 154px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes4{
+    display: flex;
+    width: 122px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#pes5{
+    width: 284px;
+    height: 83px;
+    flex-shrink: 0;
+    margin: 16px 0px 0px 16px;
+  }
+
+  div#quadro5{
+    width: 284px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  p#pesNS5{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 0px 0px 56px;
+    margin-top: -52px;
+  }
+
+  p#loremPes5{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 2px 0px 0px 56px;
+  }
+
+  div#mensagemPes5{
+    width: 154px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes5{
+    display: flex;
+    width: 122px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#mensagemPes6{
+    width: 99px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes6{
+    display: flex;
+    width: 67px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#mensagemPes7{
+    width: 99px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes7{
+    display: flex;
+    width: 67px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#mensagemPes8{
+    width: 99px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes8{
+    display: flex;
+    width: 67px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#mensagemPes9{
+    width: 99px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes9{
+    display: flex;
+    width: 67px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  div#mensagemPes0{
+    width: 99px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 7px 0px 0px 53px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.00);
+  }
+
+  p#sendPes0{
+    display: flex;
+    width: 67px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--letra-branca);
+    margin: 0px 16px 0px 16px;
+    margin-top: 4px;
+  }
+
+  img.imagemPes{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes2{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes3{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes4{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes5{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes6{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes7{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes8{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes9{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  img.imagemPes0{
+    width: 48px;
+    height: 48px;
     flex-shrink: 0;
   }
 
